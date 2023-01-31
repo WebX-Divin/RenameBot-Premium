@@ -87,7 +87,7 @@
 
         "LOG_CHANNEL":{
 
-             "description":"Channel Id Nedd Store Files Get Your channel id from Rose @MissRose_bot",
+             "description":"Channel Id Need Store Files Get Your channel id",
 
              "required": true
 

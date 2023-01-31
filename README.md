@@ -1,10 +1,19 @@
-# RENAMER_BOT_V3
-Telegram renamer bot
-Supports 4GB Files 
+# Rename Bot Premium Repo. Give a start and Use the Repo as your need.
 
-## Configs 
+----
 
-* TOKEN  - Get bot token from @BotFather
+# Features
+ - Renames very fast .
+ - Permanent Thumbnail support.
+ - Supports Broadcasts.
+ - Set custom caption.
+ - Force subscribe available.
+ - Deploy on any PaaS.
+ - Developer Service 24x7. 🔥
+
+# Required Configs 
+
+* TOKEN         - Get bot token from @BotFather
 
 * API_ID        - From my.telegram.org 
 
@@ -16,22 +25,55 @@ Supports 4GB Files
 
 * DB_NAME  - ```optional``` Your database name from mongoDB. Default will be 'my'
 
-* CHANNEL        - ```optional``` Channel user Name without @
+* STRING -  ```optional``` Session String For Premium Users To Upload 4GB File
 
-* STRING -  ```optional``` Session String Use @genStr_Bot For Premium Users To Upload 4GB File
+* LOG_CHANNEL - Channel Id to Store Files renamed files. Act as a Dump
 
-* LOG_CHANNEL - Channel Id Ne4d Store Files Get Your channel id from Rose @MissRose_bot
+# Commands
 
-## Commands
+#### Copy and paste the command in Botfather
 
-* `/start` Start Messsage 
+```
+start - Start Messsage 
+viewthumb - View Your Saved thumbnail
+delthumb - Delete Your Thumbnail
+about - About Bot 
+broadcast - (Admin Use Only)Send Message To All Users
+addpremium - (Admin Use Only)Add Users To Rename More Then 4Gb Files and Remove Time Limit 
 
-* `/viewthumb` View Your Saved thumbnail
+```
 
-* `/delthumb` Delete Your Thumbnail
+# Deploy on VPS
 
-* `/about` About Bot 
+* Clone the Repo
+```
+git clone https://github.com/WebX-Divin/RenameBot-Premium
+```
+* Move to the Repo Folder
+```
+cd RenameBot-Premium
+```
+* Update the instance
+```
+apt update && upgrade
+```
+* Install the requirements
+```
+pip install -r requirements.txt
+```
+* Create the nested environment
+```
+apt install tmux
+```
+* Open the nested environment
+```
+tmux
+```
+* Run the Bot
+```
+python3 bot.py
+```
 
-* `/broadcast` ```Admin Use Only``` Send Message To All Users
-
-* `/addpremium` ```Admin Use Only``` Add Users To Rename More Then 4Gb Files and Remove Time Limit 
+ # Join Telegram Channel 
+ - [WebXBots](https://t.me/WebXBots). Bot Updates Channel
+ - Support Group [WebX-Support](https://t.me/Web_X_Support). For Bug report.
