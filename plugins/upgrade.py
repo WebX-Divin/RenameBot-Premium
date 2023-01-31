@@ -40,10 +40,6 @@ async def upgradecm(bot,message):
 	Daily Upload limit 50GB
 	Price Rs 80  🇮🇳/🌎 0.97$  per Month
 	
-	**VIP3**
-	Daily Upload limit 100GB
-	Price Rs 150  🇮🇳/🌎 1.81$  per Month
-	
 	
 	Pay Using Upi I'd ```divindass@fbl```
 	
