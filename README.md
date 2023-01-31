@@ -1,4 +1,4 @@
-# Rename Bot Premium Repo. Give a start and Use the Repo as your need.
+# Rename Bot Premium Repo. Give a star and Use the Repo as your need.
 
 ----
 
